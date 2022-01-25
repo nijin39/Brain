@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import Head from "next/head";
 import styles from "./layout.module.css";
 
@@ -7,7 +8,9 @@ export default function Layout({ children }: any) {
       <Head>
         <title>Layouts Example</title>
       </Head>
-      <main className={styles.main}>{children}</main>
+      <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+        <main className={styles.main}>{children}</main>
+      </Box>
     </>
   );
 }

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Layout from "../components/layout";
 import Sidebar from "../components/sidebar";
 
@@ -32,7 +33,7 @@ export default function Index() {
   );
 }
 
-Index.getLayout = function getLayout(page:any) {
+Index.getLayout = function getLayout(page: any) {
   return (
     <Layout>
       <Sidebar />
