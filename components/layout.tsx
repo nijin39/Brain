@@ -6,7 +6,7 @@ export default function Layout({ children }: any) {
   return (
     <>
       <Head>
-        <title>Layouts Example</title>
+        <title>Brain</title>
       </Head>
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <main className={styles.main}>{children}</main>
